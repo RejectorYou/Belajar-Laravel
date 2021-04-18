@@ -9,6 +9,8 @@ use App\Http\Requests;
 class KaryawanController extends Controller
 {
 	public function index(){
-    	return "Halo ini adalah method index, dalam controller DosenController. - www.malasngoding.com";
+		$nama = "Fathurrahman Hardi Ar-Rasyid";
+		$posisi = ["Operator","Karyawan","Finishing","Repairing"];
+    	return view('karyawan/index', ['nama'=>$nama,'posisi'=>$posisi]);
 	}
 }
