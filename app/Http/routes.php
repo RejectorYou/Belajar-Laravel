@@ -15,19 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/* Training 2 */
 Route::get('/hi', function () {
 	return "Hi, Selamat Datang";
 });
-
-Route::get('/blog', function(){
-	return view('blog');
-});
-/* End */
-
-/* training 3 */
 
 Route::get('/karyawan', 'KaryawanController@index');
 Route::get('/karyawan/add', 'KaryawanController@add_from');
 Route::post('/karyawan/add/process', 'KaryawanController@add_process');
 Route::get('/karyawan/view/{nama}', 'KaryawanController@view');
+
+Route::get('/home', 'BlogController@home');
+Route::get('/profile', 'BlogController@profile');
+Route::get('/contact', 'BlogController@contact');
