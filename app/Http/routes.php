@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* Training 2 */
+Route::get('/hi', function () {
+	return "Hi, Selamat Datang";
+});
+
+Route::get('/blog', function(){
+	return view('blog');
+});
+/* End */
+
+/* training 3 */
+
+Route::get('/karyawan', 'KaryawanController@index');
