@@ -1,4 +1,9 @@
-Training #6 : Maintenance Mode Pada Laravel
+#6 : Maintenance Mode Pada Laravel
 php artisan down (untuk mengaktifkan Maintenance mode di laravel)
 php artisan up (untuk menonaktifkan Maintenance mode di laravel)
 note : jika sudah di aktifkan maka perlu juga untuk serve!
+
+#7 : Konfigurasi Dasar Pada Laravel
+1. File .env adalah fitur untuk konfigurasi laravel
+2. Semua pengaturan yang ada pada project laravel sudah dikumpulkan dalam file .env
+3. Pengaturan yang ada dalam .env lebih diutamakan oleh sistem dibandingkan dengan pengaturan-pengaturan yang ada dalam folder config
