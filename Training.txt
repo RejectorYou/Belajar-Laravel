@@ -1,0 +1,4 @@
+Training #6 : Maintenance Mode Pada Laravel
+php artisan down (untuk mengaktifkan Maintenance mode di laravel)
+php artisan up (untuk menonaktifkan Maintenance mode di laravel)
+note : jika sudah di aktifkan maka perlu juga untuk serve!
