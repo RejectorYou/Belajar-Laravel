@@ -28,3 +28,6 @@ Route::get('/blog', function(){
 /* training 3 */
 
 Route::get('/karyawan', 'KaryawanController@index');
+Route::get('/karyawan/add', 'KaryawanController@add_from');
+Route::post('/karyawan/add/process', 'KaryawanController@add_process');
+Route::get('/karyawan/view/{nama}', 'KaryawanController@view');
